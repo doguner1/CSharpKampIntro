@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematik", "Matematik\Matematik.csproj", "{FF66723B-FDC1-49C5-9EFC-BC04BB812781}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{6A4BE920-C838-4CC3-8C3B-B132CCD17C67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FF66723B-FDC1-49C5-9EFC-BC04BB812781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF66723B-FDC1-49C5-9EFC-BC04BB812781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF66723B-FDC1-49C5-9EFC-BC04BB812781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4BE920-C838-4CC3-8C3B-B132CCD17C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4BE920-C838-4CC3-8C3B-B132CCD17C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4BE920-C838-4CC3-8C3B-B132CCD17C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4BE920-C838-4CC3-8C3B-B132CCD17C67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

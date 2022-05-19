@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP1
 {
-    internal class Program
+    internal class ProductManager
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
