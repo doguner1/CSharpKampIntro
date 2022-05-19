@@ -11,7 +11,7 @@ namespace Matematik
         static void Main(string[] args)
         {
             DortIslem dortIslem = new DortIslem();
-            dortIslem.Ekle(4, 7);
+            dortIslem.Ekle(4, 20);
 
         }
     }
