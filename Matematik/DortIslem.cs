@@ -13,5 +13,11 @@ namespace Matematik
             int toplam = x + y;
             Console.WriteLine("Toplamları: " + toplam);
         }
+
+        public void Cikarma(int x, int y)
+        {
+            int cikarma = x - y;
+            Console.WriteLine("Farkları: " + cikarma);
+        }
     }
 }

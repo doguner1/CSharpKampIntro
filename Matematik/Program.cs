@@ -12,6 +12,7 @@ namespace Matematik
         {
             DortIslem dortIslem = new DortIslem();
             dortIslem.Ekle(4, 20);
+            dortIslem.Cikarma(5, 20);
 
         }
     }
