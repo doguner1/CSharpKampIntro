@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace OOP1
 {
-    internal class ProductManager
+     class ProductManager
     {
+        public void Add()
+        {
+
+        }
+
+        
     }
 }
