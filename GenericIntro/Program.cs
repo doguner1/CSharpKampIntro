@@ -14,6 +14,11 @@ namespace GenericsIntro
             //Generic olduğundan düz new ile bu sınıf newlenemez.
             MyList<string> isimler = new MyList<string>();
             isimler.Add("Hello");
+            isimler.Add("World");
+
+            isimler.Yazdir();
+
+            
         }
     }
 }
