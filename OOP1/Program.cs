@@ -18,6 +18,16 @@ namespace OOP1
             product1.UnitsStock = 44;
 
             Product product2 = new Product { Id = 2, ProductName = "Kalem", CategoryId = 1, UnitPrice = 20, UnitsStock = 200 }; // böylede yazılabilir.
+
+
+            //PascalCase   //camelCase
+            ProductManager productManager = new ProductManager(); //-- Stack --> Heap
+            productManager.Add(product1);
+
+            foreach (var item in products)
+            {
+
+            }
         }
     }
 }
