@@ -43,9 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KrediBaseManager.cs" />
+    <Compile Include="BaşvuruManager.cs" />
+    <Compile Include="KonutKrediManager.cs" />
+    <Compile Include="KrediManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaşıtKrediManager.cs" />
+    <Compile Include="İhtiyaçKrediManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

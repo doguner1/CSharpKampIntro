@@ -10,8 +10,17 @@ namespace OOP3
     {
         static void Main(string[] args)
         {
+            IKrediManager ihtiyaçKrediManager = new İhtiyaçKrediManager();
+            IKrediManager tasitKrediManager = new TaşıtKrediManager();
+            IKrediManager konutKrediManager = new KonutKrediManager();
 
-
+            BaşvuruManager başvuruManager = new BaşvuruManager();
+            // başvuruManager.BaşvuruYap(ihtiyaçKrediManager);
+            
+            List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyaçKrediManager, tasitKrediManager };
+            başvuruManager.KrediOnBilgilendirmesiYap(krediler);
         }
     }
 }
+
+//İnterfaceler de o interfaceyi implement eden sınıfın referansını tutar. Üsteki koddan bu çıkar.
