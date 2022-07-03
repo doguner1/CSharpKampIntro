@@ -6,7 +6,7 @@ namespace OOP3
     {
         public void Log()
         {
-            Console.WriteLine("Veri tabanına loglandı");
+            Console.WriteLine("Sms  loglandı");
         }
     }
 }

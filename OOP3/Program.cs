@@ -17,10 +17,10 @@ namespace OOP3
             ILoggerService fileLoggerService = new FileLoggerService();
 
             BaşvuruManager başvuruManager = new BaşvuruManager();
-            başvuruManager.BaşvuruYap(new EsnaKrediManager(),new DataBaseLoggerService());
+            başvuruManager.BaşvuruYap(new EsnaKrediManager(),new List<ILoggerService> {new DataBaseLoggerService(),new SmsLoggerService() });
             
             List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyaçKrediManager, tasitKrediManager };
-            //başvuruManager.KrediOnBilgilendirmesiYap(krediler);
+            //başvuruManager.KrediOnBilgilendirmesiYap(krediler); -->Burada krediler diye list yaptık onu kullandık başvuru yap yerine. Yukarda ise parantez içine new List yaptık,
         }
     }
 
