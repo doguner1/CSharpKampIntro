@@ -11,7 +11,7 @@ namespace OOP2
     {
         public void Ekle(Musteri musteri) //polimorfizim  var burada. yani base sınıf üzerinden ilerlediğimiz için denir. 
         {
-          
+            Console.WriteLine("hi");
         }
     }
 }
